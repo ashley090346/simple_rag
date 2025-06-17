@@ -13,7 +13,7 @@ graph TD
     C --> D[Ollama - Embedding 模型]
     C --> E[Qdrant 向量資料庫]
     E --> F[擷取最相關內容]
-    F --> G[Ollama - LLM (llama3)]
+    F --> G["Ollama - LLM: llama3"]
     G --> H[回答結果]
     H --> B
 ```
